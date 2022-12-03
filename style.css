@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(8, 8, 110);
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: pink;
+    height: 85px;
+    padding: 0 10%;
+    align-items: center;
+    
+   
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+ .footer{
+    color: pink;
+    background-color: black;
+    font-family: sans-serif;
+}
+
+.do{
+    color: white;
+    background-color: black ;
+    font-family:sans-serif ;
+}
