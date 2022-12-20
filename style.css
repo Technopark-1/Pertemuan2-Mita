@@ -1,15 +1,21 @@
 body{
-    background-color: rgb(8, 8, 110);
+    background-color:white;
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-family: 'Inter', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'inter',sans-serif';
+}
+
+section{
+    width: 100%;
+    height: 95vh;
+    position: relative;
 }
 
 .navbar{
     display: flex;
     justify-content: space-between;
-    background-color: pink;
+    background-color: #fff;
     height: 85px;
     padding: 0 10%;
     align-items: center;
@@ -25,14 +31,53 @@ body{
     justify-content: space-between;
     gap: 30px;
 }
- .footer{
-    color: pink;
-    background-color: black;
-    font-family: sans-serif;
+ 
+.kolom{
+    font-size: 60px;
+    font-weight:bolder;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
-.do{
-    color: white;
-    background-color: black ;
-    font-family:sans-serif ;
+.linked{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 200px;
+}
+
+h2{
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.model{
+    height:400px;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+}
+.wrapper{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.wrapper .deskripsi{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    margin: auto;
+}
+
+.paraf{
+    font-size: 14px;
+    font-weight: 100;
+    font-family: sans-serif;
 }
